@@ -1,0 +1,14 @@
+{
+  "version": 2,
+  "dgSpecHash": "ZJjDXuW978GGU0+B9EKIYVtmZYcqDHuk9kW4EwnhsujTTErERKZ0d+ePzCgEXbFmjCSY95xykvINMgO1zEdsyw==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\Simeon Stojanovic\\source\\repos\\Sistemsko3\\Sistemsko3\\Sistemsko3.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Simeon Stojanovic\\.nuget\\packages\\newtonsoft.json\\13.0.3\\newtonsoft.json.13.0.3.nupkg.sha512",
+    "C:\\Users\\Simeon Stojanovic\\.nuget\\packages\\restsharp\\111.3.0\\restsharp.111.3.0.nupkg.sha512",
+    "C:\\Users\\Simeon Stojanovic\\.nuget\\packages\\system.reactive\\6.0.1\\system.reactive.6.0.1.nupkg.sha512",
+    "C:\\Users\\Simeon Stojanovic\\.nuget\\packages\\system.text.encodings.web\\8.0.0\\system.text.encodings.web.8.0.0.nupkg.sha512",
+    "C:\\Users\\Simeon Stojanovic\\.nuget\\packages\\system.text.json\\8.0.3\\system.text.json.8.0.3.nupkg.sha512"
+  ],
+  "logs": []
+}
