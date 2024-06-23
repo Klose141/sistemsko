@@ -1,0 +1,14 @@
+{
+  "version": 2,
+  "dgSpecHash": "5hbW+PNbcZbJ/5HANDXwiqVvg1wMlcao70Jo0SxGk9qitfXtEUmViOjT+z4ljo84hdRRrpc5pHoGunaBdi2tlw==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\Simeon Stojanovic\\source\\repos\\SistemskoProjekat\\SistemskoProjekat\\SistemskoProjekat.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Simeon Stojanovic\\.nuget\\packages\\microsoft.win32.systemevents\\8.0.0\\microsoft.win32.systemevents.8.0.0.nupkg.sha512",
+    "C:\\Users\\Simeon Stojanovic\\.nuget\\packages\\system.configuration.configurationmanager\\8.0.0\\system.configuration.configurationmanager.8.0.0.nupkg.sha512",
+    "C:\\Users\\Simeon Stojanovic\\.nuget\\packages\\system.drawing.common\\8.0.4\\system.drawing.common.8.0.4.nupkg.sha512",
+    "C:\\Users\\Simeon Stojanovic\\.nuget\\packages\\system.runtime.caching\\8.0.0\\system.runtime.caching.8.0.0.nupkg.sha512",
+    "C:\\Users\\Simeon Stojanovic\\.nuget\\packages\\system.security.cryptography.protecteddata\\8.0.0\\system.security.cryptography.protecteddata.8.0.0.nupkg.sha512"
+  ],
+  "logs": []
+}

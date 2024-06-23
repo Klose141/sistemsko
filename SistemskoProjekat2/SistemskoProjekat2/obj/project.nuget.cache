@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "m4EqohyfmH9mPKbzcxZbHU4AecWgxhKqlQKQi1psluJzHjKR+Z6EFlgB7gADMfReTo2/mT0saQ14NG4Ws3AXtg==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\Simeon Stojanovic\\source\\repos\\SistemskoProjekat2\\SistemskoProjekat2\\SistemskoProjekat2.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Simeon Stojanovic\\.nuget\\packages\\microsoft.win32.systemevents\\8.0.0\\microsoft.win32.systemevents.8.0.0.nupkg.sha512",
+    "C:\\Users\\Simeon Stojanovic\\.nuget\\packages\\system.drawing.common\\8.0.6\\system.drawing.common.8.0.6.nupkg.sha512"
+  ],
+  "logs": []
+}
