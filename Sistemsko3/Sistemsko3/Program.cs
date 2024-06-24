@@ -1,7 +1,6 @@
-﻿using System;
+using System;
 using System.Reactive.Linq;
 using System.Diagnostics;
-using System.Reactive;
 
 class Program
 {
@@ -10,15 +9,26 @@ class Program
         var service = new OpenLibraryService();
         var ui = new ConsoleUI();
 
-
-        Observable.Repeat(Unit.Default)
-            .Select(_ =>
+        var inputObservable = Observable.Create<string>(observer =>
+        {
+            while (true)
             {
                 Console.WriteLine("\nUnesite ime autora (ili 'exit' za izlaz):");
-                return Console.ReadLine();
-            })
-            .TakeWhile(input => input?.ToLower() != "exit")
-            .Where(input => !string.IsNullOrWhiteSpace(input))
+                var input = Console.ReadLine();
+                if (input?.ToLower() == "exit")
+                {
+                    observer.OnCompleted();
+                    break;
+                }
+                if (!string.IsNullOrWhiteSpace(input))
+                {
+                    observer.OnNext(input);
+                }
+            }
+            return System.Reactive.Disposables.Disposable.Empty;
+        });
+
+        inputObservable
             .Select(author =>
             {
                 var stopwatch = Stopwatch.StartNew();
@@ -37,6 +47,6 @@ class Program
                 () => Console.WriteLine("Program je završen.")
             );
 
-        Console.ReadLine();
+        Console.ReadLine(); 
     }
 }
